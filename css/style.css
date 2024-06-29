@@ -57,10 +57,30 @@ body {
     text-underline-position: under;
 }
 
+.news h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-underline-position: under;
+    text-underline-offset: 15px;
+}
+
 .contacts-items h3 {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 16px;
     font-weight: 700;
+}
+
+.news h3 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.news .comands {
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .contacts-items a {
@@ -97,4 +117,54 @@ body {
     line-height: 16px;
     text-decoration: none;
     color: #163152;
+}
+
+.pic-description {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693A4;
+
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.captain {
+    margin-left: 40px;
+}
+
+.results {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+}
+
+.members-list-item {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.words {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color:#00C6BD;
+    padding-left: 20px;
+}
+
+.member-text {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+.member-date {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693A4;
 }
