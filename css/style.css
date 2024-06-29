@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #163152;
+    background-color: #FDFDFF;
+}
+
+.site-navigation a {
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #163152;
+}
+
+.hero h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.date-description {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.date-1 h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 2px;
+    text-underline-position: under;
+}
+
+.date-2 h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 2px;
+    text-underline-position: under;
+}
+
+.contacts h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.contacts-items h3 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.contacts-items a {
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #163152;
+}
+
+.contacts-items p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.politic-text, .copyright {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.politic-text {
+    text-decoration: none;
+    color: #163152;
+}
+
+.footer-navigation-item h2 {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.footer-navigation-item-list a {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #163152;
+}
