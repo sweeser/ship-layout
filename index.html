@@ -14,10 +14,10 @@
 </head>
 <body>
     <header class="main-header">
-        <a class="logo-section" href="#">
-            <img class="header-logo" src="./img/logotype.svg" alt="Логотип" height="68" width="64">
-        </a>
         <nav class="main-header-navigation">
+            <p class="logo-section">
+                <img class="header-logo" src="./img/logotype.svg" alt="Логотип" height="68" width="64">
+            </p>
             <ul class="site-navigation">
                 <li class="site-navigation-item"><a href="#">Наш клуб</a></li>
                 <li class="site-navigation-item"><a href="#">Регаты</a></li>
@@ -26,10 +26,10 @@
                 <li class="site-navigation-item"><a href="#">Новости</a></li>
                 <li class="site-navigation-item"><a href="#">Контакты</a></li>
             </ul>
+            <a class="accaunt-section" href="#">
+                <img class="accaunt" src="./img/icon.svg" alt="Логотип" height="18" width="16">
+            </a>
         </nav>
-        <a class="accaunt-section" href="#">
-            <img class="accaunt" src="./img/icon.svg" alt="Логотип" height="18" width="16">
-        </a>
     </header>
     <main>
         <section class="hero">
@@ -54,30 +54,38 @@
         </section>
         <section class="news">
             <h2>Новости</h2>
-            <img class="captain" src="./img/photo.jpg" alt="Картинка с капитаном" height="301" width="770">
-            <p class="pic-description">Победитель регаты шкипер Иван Кулешов</p>
-            <h3>Итоги регаты Sochi Race Week 2020</h3>
-            <p class="results">Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях приняли участие как новички, так и <span class="line-through">профессионалы</span> моряки, имеющие за плечами немалый опыт.</p>
-            <p class="results">На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.</p>
-            <h3 class="comands">Команды участники:</h3>
-            <ul class="members-list">
-                <li class="members-list-item">Восток 35</li>
-                <li class="members-list-item">Fortune Sailing</li>
-                <li class="members-list-item">Сибирь</li>
-                <li class="members-list-item">Левиафан</li>
-                <li class="members-list-item">Черный лебедь</li>
-                <li class="members-list-item">White Pepper</li>
-                <li class="members-list-item">Pearl</li>
-            </ul>
-            <p class="results">Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на <span class="line-through">12 баллов</span> 5 баллов.</p>
-            <p class="words">Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили</p>
-            <p class="results">Поздравляем победителей и ждем все участников снова на осенних регатах! </p>
-            <img src="./img/author.jpg" alt="Изображение Колесникова" height="60" width="60">
-            <p class="member-text">Артем Колесников</p>
-            <p class="member-date">20.06.2021</p>
-            <a href="#">
-                <img src="./img/share icon.svg" alt="Переход" height="22" width="26">
-            </a>
+            <article class="post">
+                <figure class="post-img">
+                    <img src="./img/photo.jpg" alt="Картинка с капитаном" height="301" width="770">
+                    <figcaption>Победитель регаты шкипер Иван Кулешов</figcaption>
+                </figure>
+                <h3>Итоги регаты Sochi Race Week 2020</h3>
+                <p class="results">Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях приняли участие как новички, так и <span class="line-through">профессионалы</span> моряки, имеющие за плечами немалый опыт.</p>
+                <p class="results">На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.</p>
+                <h4 class="comands">Команды-участники:</h3>
+                <ul class="members-list">
+                    <li class="members-list-item">Восток 35</li>
+                    <li class="members-list-item">Fortune Sailing</li>
+                    <li class="members-list-item">Сибирь</li>
+                    <li class="members-list-item">Левиафан</li>
+                    <li class="members-list-item">Черный лебедь</li>
+                    <li class="members-list-item">White Pepper</li>
+                    <li class="members-list-item">Pearl</li>
+                </ul>
+                <p class="results">Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на <span class="line-through">12 баллов</span> 5 баллов.</p>
+                <blockquote>Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили</blockquote>
+                <p class="results">Поздравляем победителей и ждем все участников снова на осенних регатах! </p>
+                <footer class="post-footer">
+                    <img src="./img/author.jpg" alt="Изображение Колесникова" height="60" width="60">
+                    <p class="post-meta">
+                        <a href="#">Артем Колесников</a>
+                        <time datetime="2021-06-20">20.06.2021</time>
+                    </p>
+                    <a href="#">
+                        <img src="./img/share icon.svg" alt="Переход" height="22" width="26">
+                    </a>
+                </footer>
+            </article>
         </section>
         <section class="contacts">
             <div class="contacts-container">
@@ -114,12 +122,12 @@
             <img class="contacts-picture" src="./img/map.png" alt="Карта" height="351" width="670">
         </section>
     </main>
-    <footer>
+    <footer class="main-footer">
         <div class="footer-container">
             <div class="logo-text">
-                <a class="logo-section" href="#">
+                <p class="logo-section" >
                     <img class="footer-logo" src="./img/logotype.svg" alt="Логотип" height="106" width="100">
-                </a>
+                </p>
                 <p><a class="politic-text" href="#">Политика конфиденциальности</a></p>
                 <p class="copyright">Яхтклуб ©2020 Все права защищены</p>
             </div>
