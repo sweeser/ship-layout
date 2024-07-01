@@ -2,9 +2,46 @@ body {
     font-family: "Roboto", serif;
     font-size: 16px;
     line-height: 24px;
-
+    margin: 0;
+    padding: 0;
     color: #163152;
     background-color: #FDFDFF;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+footer {
+    padding: 60px 0;
+    display: flex;
+    height: 288px;
+}
+
+.main-header {
+    padding: 20px 55px;
+    width: 1170px;
+    margin: 0 auto;
+
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.logo-section {
+    margin-right: 471px;
+}
+
+.main-header-navigation {
+    width: 559px;
+    margin-right: 40px;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .site-navigation a {
@@ -16,12 +53,51 @@ body {
     color: #163152;
 }
 
+.hero {
+    margin: 0 auto;
+    width: 1170px;
+    margin-bottom: 120px;
+}
+
 .hero h1 {
     font-size: 44px;
     line-height: 60px;
     font-style: italic;
     font-weight: 400;
     text-transform: uppercase;
+
+    margin-bottom: 40px;
+}
+
+.date-1 {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.date-1-picture {
+    margin-left: 30px;
+}
+
+.date-2-picture {
+    margin-right: 30px;
+}
+
+.date-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1030px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.contacts-container {
+    width: 330px;
+}
+
+.contacts-picture {
+    margin-right: 100px;
 }
 
 .date-description {
@@ -48,6 +124,19 @@ body {
     text-underline-position: under;
 }
 
+.contacts {
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contacts-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .contacts h2 {
     font-size: 24px;
     line-height: 34px;
@@ -55,6 +144,12 @@ body {
     text-decoration-color: #00C6BD;
     text-underline-offset: 15px;
     text-underline-position: under;
+}
+
+.news {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .news h2 {
@@ -65,6 +160,8 @@ body {
     text-decoration-color: #00C6BD;
     text-underline-position: under;
     text-underline-offset: 15px;
+
+    margin-bottom: 55px;
 }
 
 .contacts-items h3 {
@@ -123,13 +220,6 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #8693A4;
-
-    margin-top: 0;
-    margin-left: 40px;
-}
-
-.captain {
-    margin-left: 40px;
 }
 
 .results {
@@ -167,4 +257,30 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #8693A4;
+}
+
+.footer-navigation-item-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 165px;
+}
+
+.footer-navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.logo-text {
+    margin-right: 125px;
 }
