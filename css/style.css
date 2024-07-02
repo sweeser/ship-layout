@@ -13,25 +13,35 @@ body {
     padding: 20px 55px;
     margin-bottom: 40px;
 }
-    
+
 .main-nav {
     display: flex;
+    align-items: center;
 }
-    
+
 .logo {
-    width: 64px;
     margin: 0;
     margin-right: auto;
 }
-    
+
 .site-navigation {
     padding: 0;
     margin: 0;
     margin-right: 40px;
     list-style: none;
-    width: 560px;
+    max-width: 990px;
+    display: flex;
+    flex-wrap: wrap;
 }
-    
+
+.site-navigation-item {
+    margin-right: 30px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
+}
+
 .site-navigation-item a {
     font-size: 14px;
     line-height: 18px;
@@ -39,21 +49,43 @@ body {
     color: #163152;
     text-decoration: none;
 }
-    
+
+.site-navigation-item a:active {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.site-navigation-item a:hover {
+    color: rgba(22, 49, 82, 0.3);
+}
+
 .signin {
     width: 36px;
+    height: 36px;
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-    
+
+.signin:active {
+    opacity: 0.3;
+}
+
+.signin:hover {
+    opacity: 0.5;
+}
+
 .main-content {
     width: 1170px;
     margin: 0 auto;
     padding: 0 55px;
 }
-    
+
 .hero {
     margin-bottom: 120px;
 }
-    
+
 .hero h1 {
     margin-top: 0;
     margin-bottom: 40px;
@@ -63,39 +95,47 @@ body {
     line-height: 60px;
     text-transform: uppercase;
 }
-    
+
+.hero img {
+    display: block;
+}
+
 .blog-article {
     display: flex;
     justify-content: space-between;
     width: 1030px;
     margin: 0 auto;
 }
-    
+
 .blog-article-content {
     width: 400px;
 }
-    
+
 .blog-article-img {
     width: 600px;
 }
-    
+
 .blog-article-1 {
     margin-bottom: 100px;
 }
-    
+
 .blog-article-1 .blog-article-content {
     margin-right: 30px;
 }
-    
+
 .blog-article-2 {
     flex-direction: row-reverse;
     margin-bottom: 120px;
 }
-    
+
 .blog-article-2 .blog-article-img {
     margin-right: 30px;
 }
-    
+
+.blog-article-2 .blog-article-content {
+    text-align: right;
+}
+
 .blog-article h2 {
     margin-top: 0;
     margin-bottom: 35px;
@@ -107,19 +147,24 @@ body {
     text-underline-offset: 15px;
     text-underline-position: under;
 }
-    
+
 .blog-article-date {
+    margin-top: 0;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
 }
-    
+
+.blog-article-description {
+    margin-top: 0;
+}
+
 .news {
     width: 770px;
     margin: 0 auto;
     margin-bottom: 120px;
 }
-    
+
 .news h2 {
     margin: 0;
     margin-bottom: 55px;
@@ -132,59 +177,120 @@ body {
     text-underline-offset: 15px;
     text-underline-position: under;
 }
-    
+
 .post-img {
     margin: 0;
+    margin-bottom: 33px;
 }
-    
+
 .post-img figcaption {
+    margin: 0;
+    margin-top: 17px;
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
 }
-    
-.post h3 {
+
+.post-content h3 {
+    margin-top: 33px;
+    margin-bottom: 27px;
     font-size: 22px;
     line-height: 26px;
 }
-    
-.post p {
+
+.post-content p {
+    margin: 12px 0;
     font-size: 18px;
     line-height: 26px;
 }
-    
-.post h4 {
+
+.post-content h4 {
+    margin-top: 24px;
+    margin-bottom: 15px;
     font-size: 20px;
     line-height: 26px;
 }
-    
-.post ul {
+
+.post-content ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 19px;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 26px;
 }
-    
-.post ins {
+
+.post-content li {
+    margin-bottom: 8px;
+}
+
+.post-vontent ins {
     text-decoration: none;
 }
-    
-.post blockquote {
+
+.post-content blockquote {
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    padding: 0 20px;
     font-weight: bold;
     font-size: 26px;
     line-height: 36px;
+    border-left: 2px solid #00c6bd;
 }
-    
+
+.post-footer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.post-author-img {
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.post-meta {
+    max-width: 500px;
+    margin: 0;
+    margin-top: 7px;
+    margin-right: auto;
+}
+
 .post-meta a {
+    display: block;
+    margin-bottom: 9px;
     font-size: 16px;
     line-height: 19px;
     font-weight: bold;
     color: #163152;
     text-decoration: none;
 }
-    
+
+.post-meta a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.post-meta a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
 .post-meta time {
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
+}
+
+.post-share {
+    margin-top: 19px;
+}
+
+.post-share:hover {
+    opacity: 0.5;
+}
+
+.post-share:active {
+    opacity: 0.3;
 }
 
 .gallery {
@@ -228,20 +334,45 @@ body {
 .preview-list li:last-child {
     margin-bottom: 0;
 }
+
+.preview-list a {
+    display: block;
+    position: relative;
+}
+
+.preview-list a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(253, 253, 255, 0.5);
+}
+
+.preview-list a.active-item::before {
+    background-color: transparent;
+}
+
+.preview-list img {
+    display: block;
+}
+
 .contacts {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
-    
+
 .contacts-content {
+    padding-top: 50px;
     width: 400px;
 }
-    
+
 .contacts-img {
     width: 670px;
 }
-    
+
 .contacts h2 {
     margin: 0;
     margin-bottom: 35px;
@@ -253,34 +384,86 @@ body {
     text-underline-offset: 15px;
     text-underline-position: under;
 }
-    
+
+.contact-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .contact-item {
+    margin: 0;
+    margin-bottom: 15px;
     font-size: 16px;
     line-height: 22px;
 }
-    
+
 .contact-item h3 {
+    display: inline;
+    margin: 0;
+    margin-right: 8px;
     font-size: 16px;
     line-height: 22px;
 }
-    
+
 .contact-item address {
+    display: inline;
     font-style: normal;
 }
-    
+
 .contact-item a {
     color: #163152;
     text-decoration: none;
 }
-    
+
+.contact-item a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.contact-item a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    margin-right: 15px;
+}
+
+.social-item a {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+}
+
+.social-item a:hover {
+    opacity: 0.5;
+}
+
+.social-item a:active {
+    opacity: 0.3;
+}
+
 .main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
     margin-top: 120px;
     font-size: 10px;
     line-height: 12px;
+    border-top: 1px solid rgba(22, 49, 82, 0.1);
 }
-    
+
 .footer-container {
     width: 1170px;
     margin: 0 auto;
@@ -288,15 +471,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
-    
+
 .footer-column {
     width: 175px;
 }
-    
+
 .main-footer .logo {
     width: 100px;
+    margin-bottom: 30px;
 }
-    
+
 .footer-navigation-topics {
     display: flex;
     justify-content: space-between;
@@ -307,11 +491,11 @@ body {
     font-size: 14px;
     line-height: 16px;
 }
-    
+
 .footer-navigation-topic {
     width: 165px;
 }
-    
+
 .footer-navigation-topic h2 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -319,19 +503,52 @@ body {
     line-height: 18px;
     text-transform: uppercase;
 }
-    
+
 .footer-navigation {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-    
+
+.footer-navigation-item {
+    margin-bottom: 12px;
+}
+
+.footer-navigation-item:last-child {
+    margin-bottom: 0;
+}
+
 .footer-navigation-item a {
     color: #163152;
     text-decoration: none;
 }
-    
+
+.footer-navigation-item a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.footer-navigation-item a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
+.policy {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
 .policy a {
     color: #163152;
     text-decoration: none;
+}
+
+.policy a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.policy a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
+.copyright {
+    margin: 0;
 }
