@@ -258,6 +258,7 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
+    padding: 20px 55px;
 }
 
 .logo {
@@ -330,6 +331,7 @@ body {
 .hero h1 {
     margin-top: 0;
     margin-bottom: 40px;
+    margin-left: 70px;
     font-style: italic;
     font-weight: normal;
     font-size: 44px;
