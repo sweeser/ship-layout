@@ -258,7 +258,6 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    padding: 20px 55px;
 }
 
 .logo {
