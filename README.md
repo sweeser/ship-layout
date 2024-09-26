@@ -1,1 +1,24 @@
-This is layout of figma: https://www.figma.com/design/6qDWCtD9BkB3fPSbUHiknB/fe-start-04?node-id=1-2&t=Bym7MZ82oRuwjbXJ-0
+# ship-app
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
